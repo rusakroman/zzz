@@ -1,0 +1,120 @@
+footer{
+    background-color: #2F324B;
+    height: 158px;
+    padding-top: 45px;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;   
+}
+
+.footer-left{
+    display: flex;
+    align-items: center;
+    gap:19px;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.footer-left__description{
+    max-width: 127px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.footer-right__span{
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.footer-right__link{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+@media(max-width:900px){
+    .footer-middle{
+        display: none;
+    }
+}
+
+@media(max-width:760px){
+    .footer-right__span{
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media(max-width:760px){
+    .footer-left__img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer-right__span{
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+    }
+    
+    .footer-right__link{
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        text-decoration: underline;
+    }
+}
+
+@media(max-width:570px){
+    .footer-left__img{
+        width: 45px;
+        height: 45px;
+    }
+
+    .footer-right__span{
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+    }
+    
+    .footer-right__link{
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+}
+
+@media(max-width:444px){
+    .footer-right__span{
+        display: none;
+    }
+    
+    .footer-right__link{
+       display: none;
+    }
+
+    .footer-right{
+        background-image: url('../img/Phone.svg');
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer-wrapper{
+        width: 100%;
+    }
+
+}
