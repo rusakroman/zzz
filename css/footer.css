@@ -2,7 +2,6 @@ footer{
     background-color: #2F324B;
     height: 158px;
     padding-top: 45px;
-    /* padding-top: 45px; */
 }
 
 .footer-wrapper{
@@ -10,7 +9,6 @@ footer{
     justify-content: space-between;
     align-items: center;
     height: 68px;   
-    border:1px solid lime;
 }
 
 .footer-left{
@@ -44,20 +42,6 @@ footer{
     text-align: center;
     text-decoration: underline;
 }
-
-
-
-@media(max-width:1024px){
-
-    footer{
-        padding-top: 49px;
-    }
-
-    .footer-wrapper {
-        height: 60px;
-    }
-}
-
 
 @media(max-width:900px){
     .footer-middle{
@@ -119,7 +103,7 @@ footer{
     }
     
     .footer-right__link{
-        display: none;
+       display: none;
     }
 
     .footer-right{
@@ -132,6 +116,7 @@ footer{
     .footer-wrapper{
         width: 100%;
     }
+
 }
 
 @media(max-width:400px) {
@@ -161,6 +146,4 @@ footer{
         text-align: center;
         padding-top: 15px;
     }
-
 }
-

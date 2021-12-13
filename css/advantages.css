@@ -1,5 +1,5 @@
 .advantages-flex{
-    max-width: 884px;
+    max-width: 900px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -8,6 +8,7 @@
 
 
 .advantages__title{
+    max-width: 884px;
     font-weight: bold;
     font-size: 35px;
     line-height: 41px;  
@@ -26,6 +27,7 @@
 }
 
 .advantages__description{
+    max-width: 724px;
     font-size: 18px;
     line-height: 25px;
     text-align: center;
@@ -46,7 +48,6 @@
     font-weight: 500;
     line-height: 28px;
     text-align: center;
-    padding-top: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,6 +120,7 @@ width: 200px;
 
     .advantages__list {
         flex-wrap:wrap;
+        row-gap:15px;
     }
 
     .advantages__item{
@@ -132,7 +134,7 @@ width: 200px;
     }
     .advantages__list{
         align-content: center;
-        gap:50px;
+        gap:40px;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
@@ -154,10 +156,6 @@ width: 200px;
     .advantages__description {
         font-size: 12px;
         line-height: 17px;
-    }
-
-    .advantages__list{
-        gap:40px;
     }
 
     .circle__description {

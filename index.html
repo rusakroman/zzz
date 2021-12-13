@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,27 +11,34 @@
   <title>Document</title>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div class="header-top">
-        <div>
-          <img src="img/logo.svg" alt="Логотип" class="header-top__img">
-        </div>
-        <div class="flex-contacts">
-          <p class="flex-contacts__description">+7 (962) 556 - 1234</p>
-          <a href="#" class="flex-contacts__link">Перезвоните мне</a>
+  <div class="main-background">
+    <header>
+      <div class="container">
+        <div class="flex-header">
+          <div class="logo">
+            <img src="img/logo.svg" alt="Логотип" class="logo__img">
+          </div>
+          <div class="contacts">
+            <p class="contacts__tel">+7 (962) 556 - 1234</p>
+            <a class="contacts__link" href="#">Перезвоните мне</a>
+          </div>
         </div>
       </div>
-        <div class="header-main">
-          <h2 class="header-main__title">Заголовок с уникальным торговым предложением по системе 4U</h2>
-          <p class="header-main__description">Описания предлжения компании. Сайт рыбатекст поможет
-          дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста
-          рыбы на русском языке, а начинающему.
-          </p>
-          <button class="header-main__button">Подробнее</button>
+    </header>
+
+    <section class="first-screen">
+      <div class="container">
+        <div class="first-screen__div flex-screen">
+          <h1 class="flex-screen__title">Заголовок c уникальным торговым предложение по системе 4U</h1>
+          <p class="flex-screen__description">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+          несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.</p>
+          <button class="flex-screen__button">Подробнее</button>
         </div>
-    </div>
-  </header>
+      </div>
+    </section>
+
+  </div>
+
   <section class="advantages">
     <div class="container">
       <div class="advantages-flex">
@@ -54,7 +61,6 @@
             </li>
           </ul>
       </div>
-      
 
     </div>
   </section>
@@ -63,10 +69,10 @@
       <h2 class="questions__title">Остались вопросы?</h2>
       <p class="questions__subtitle">Оставьте номер телефона, и мы перезвоним вам</p>
       <form action="" class="questions__form questions-form">
-       <fieldset class="fielset-flex">
-          <input type="text" class="questions-fotm__input">
-          <input type="tel" class="questions-fotm__input">
-          <input type="email" class="questions-fotm__input">  
+        <fieldset class="fielset-flex">
+          <input type="text" class="questions-fotm__input" placeholder="Ваше имя">
+          <input type="tel" class="questions-fotm__input" placeholder="Телефон">
+          <input type="email" class="questions-fotm__input" placeholder="E-mail">  
         </fieldset>
 
         <div class="form-button">
@@ -92,10 +98,10 @@
           <a href="#" class="footer-right__link">Перезвоните мне</a>
         </div>
       </div>
-    
+      
     </div>
   </footer>
-  <section class="footer-mobile">
+    <section class="footer-mobile">
     <div class="container">
         <div class="only-mobile">
         <p class="only-mobile__text">Сделано Ивановым Иваном</p>
