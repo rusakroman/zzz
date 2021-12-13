@@ -132,7 +132,7 @@ width: 200px;
     }
     .advantages__list{
         align-content: center;
-        gap:120px;
+        gap:50px;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
@@ -154,6 +154,10 @@ width: 200px;
     .advantages__description {
         font-size: 12px;
         line-height: 17px;
+    }
+
+    .advantages__list{
+        gap:40px;
     }
 
     .circle__description {
