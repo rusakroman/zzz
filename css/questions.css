@@ -224,8 +224,8 @@
     }
     
     .questions__description{
-        font-size: 17px;
-        line-height: 20px;
-        max-width: 537px;
+        font-size: 11px;
+        line-height: 13px;
+        max-width: 289px;
     }
 }
