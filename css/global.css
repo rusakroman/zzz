@@ -107,3 +107,8 @@ label{
         padding-right: 15x;
     }
 } 
+
+.footer-mobile{
+    display: none;
+}
+
