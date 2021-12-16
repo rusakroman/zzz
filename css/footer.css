@@ -43,6 +43,12 @@ footer{
     text-decoration: underline;
 }
 
+.footer-middle{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+}
+
 @media(max-width:900px){
     .footer-middle{
         display: none;

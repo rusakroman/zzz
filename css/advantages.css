@@ -1,5 +1,5 @@
 .advantages-flex{
-    max-width: 900px;
+    width: 910px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -34,14 +34,16 @@
     color: #383A4C;
     margin-bottom: 50px;
     max-width: 724px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .advantages__list{
     counter-reset: tidbit-counter 0;
     display: flex; 
+    gap:50px;
     justify-content: center;
     align-content: center;
+    padding-left: 6px;
 }
 
 .advantages__item{
@@ -50,6 +52,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    gap:16px;
     align-items: center;
 }
 
